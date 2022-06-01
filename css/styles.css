@@ -423,17 +423,10 @@ body {
   padding: 4px 24px 20px 24px;
 }
 
-.portfolio-item:not(:last-child) {
-  margin-right: 30px;
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
 }
 
-.portfolio-list:not(:last-child) {
-  margin-right: -30px;
+.portfolio-list:nth-child(3n) {
+  margin-right: 0;
 }
-
-/*-Не получилось с портфолио
-выставить коректно разметку,
-понимаю что нужно у каждого 3го убрать
-margin-right, но как не разобралась,
-по формуле из конспекта
-:nth-last-child(3n+1) не работает---*/
